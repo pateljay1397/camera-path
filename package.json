@@ -1,0 +1,24 @@
+{
+  "name": "camera-path",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node github-api.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/auth-app": "^4.0.9",
+    "@octokit/request": "^6.2.3",
+    "@octokit/rest": "^19.0.7",
+    "esm": "^3.2.25",
+    "octokit": "^2.0.14"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4"
+  }
+}
